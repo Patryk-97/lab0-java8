@@ -32,7 +32,7 @@ public class TailsTest {
 
         assertThat(tails.get(0), Matchers.equalTo(HELLO));
     }
-
+    
     @Test
     public void tailsShouldReturnEmptyStringAsLastElement() {
 
